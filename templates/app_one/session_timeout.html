@@ -1,0 +1,20 @@
+<!-- session_timeout.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Timeout</title>
+</head>
+<body>
+    <h1>Your session has timed out</h1>
+    <p>Please refresh the page to continue</p>
+    <p>If you refresh this page, you will be redirected to the main page.</p>
+    {% comment %} <script>
+        setTimeout(function(){
+            window.location.href = "/";
+        }, 5000); // Redirect to main page after 5 seconds
+    </script> {% endcomment %}
+</body>
+</html>
